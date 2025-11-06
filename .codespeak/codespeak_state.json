@@ -61,7 +61,9 @@
             "web_application": false
         },
         "external_apis": "external_apis.json",
-        "commit_message": "Implement Say Moo application"
+        "commit_message": "Implement Say Moo application",
+        "methods_to_test_raw": "methods_to_test_raw.json",
+        "methods_to_test": "methods_to_test.json"
     },
     "phase_manager": {
         "history": [
@@ -96,6 +98,10 @@
             {
                 "checkpoint": "{\"run\":{\"id\":\"f9118dfe-6f42-45f0-b59b-a21279d5a4ea\",\"kind\":\"build\"},\"phase_id\":\"FeedbackLoopWithClaudeCode\",\"additional_id\":null}",
                 "timestamp": "2025-11-06T13:58:34.047594+00:00"
+            },
+            {
+                "checkpoint": "{\"run\":{\"id\":\"f9118dfe-6f42-45f0-b59b-a21279d5a4ea\",\"kind\":\"build\"},\"phase_id\":\"AnalyzeAndPlanTests\",\"additional_id\":null}",
+                "timestamp": "2025-11-06T13:58:41.583928+00:00"
             }
         ]
     }
